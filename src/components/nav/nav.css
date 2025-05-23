@@ -1,0 +1,246 @@
+/* Nav.css - Enhanced navigation styling */
+
+nav {
+    background-color: rgba(10, 10, 15, 0.5);
+    width: max-content;
+    display: flex;
+    padding: 0.7rem 1.2rem;
+    position: fixed;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    bottom: 2rem;
+    gap: 0.8rem;
+    border-radius: 3rem;
+    backdrop-filter: blur(15px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3),
+        inset 0 1px 1px rgba(255, 255, 255, 0.1);
+    transition: var(--transition);
+    z-index: 1000;
+    border: 1px solid rgba(138, 43, 226, 0.15);
+}
+
+nav.scrolled {
+    padding: 0.8rem 1.5rem;
+    box-shadow: 0 10px 30px rgba(138, 43, 226, 0.25),
+        inset 0 1px 1px rgba(255, 255, 255, 0.1);
+    background-color: rgba(10, 10, 15, 0.8);
+    border: 1px solid rgba(138, 43, 226, 0.25);
+}
+
+.nav-container {
+    display: flex;
+    gap: 0.8rem;
+    position: relative;
+}
+
+nav a {
+    background: transparent;
+    padding: 0.9rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-light);
+    font-size: 1.1rem;
+    position: relative;
+    transition: var(--transition);
+}
+
+/* Enhanced hover highlight animation */
+@keyframes highlightPulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(138, 43, 226, 0.6);
+    }
+
+    50% {
+        box-shadow: 0 0 0 6px rgba(138, 43, 226, 0.2);
+    }
+
+    100% {
+        box-shadow: 0 0 0 0 rgba(138, 43, 226, 0);
+    }
+}
+
+nav a:hover {
+    background: rgba(138, 43, 226, 0.15);
+    transform: translateY(-3px);
+    color: #ffffff;
+    animation: highlightPulse 1.2s ease-out;
+}
+
+nav a.active {
+    background: var(--gradient-primary);
+    color: var(--color-white);
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(138, 43, 226, 0.5),
+        inset 0 1px 2px rgba(255, 255, 255, 0.3);
+}
+
+/* Icon styling */
+.icon {
+    transition: var(--transition);
+    font-size: 1.3rem;
+}
+
+nav a:hover .icon {
+    transform: rotate(5deg) scale(1.1);
+    filter: drop-shadow(0 0 5px rgba(138, 43, 226, 0.4));
+}
+
+/* Enhanced glow effect to active items */
+nav a.active .icon {
+    animation: pulse 2s infinite;
+    filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.7));
+}
+
+/* Tooltip functionality */
+.tooltip {
+    position: absolute;
+    top: -40px;
+    font-size: 0.75rem;
+    background: var(--gradient-primary);
+    color: var(--color-white);
+    padding: 0.4rem 0.8rem;
+    border-radius: 1rem;
+    opacity: 0;
+    visibility: hidden;
+    transition: var(--transition);
+    pointer-events: none;
+    white-space: nowrap;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.4),
+        inset 0 1px 1px rgba(255, 255, 255, 0.3);
+    letter-spacing: 0.5px;
+    font-weight: 500;
+}
+
+.tooltip::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 10px;
+    height: 10px;
+    background: var(--color-primary);
+    clip-path: polygon(50% 100%, 0 0, 100% 0);
+}
+
+nav a:hover .tooltip {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(-5px);
+}
+
+nav a.active .tooltip {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(-5px);
+}
+
+/* Enhanced indicator dot beneath active item */
+nav a.active::after {
+    content: '';
+    position: absolute;
+    bottom: -6px;
+    width: 6px;
+    height: 6px;
+    background: #ffffff;
+    border-radius: 50%;
+    animation: blink 1.5s infinite;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8),
+        0 0 20px rgba(138, 43, 226, 0.5);
+}
+
+/* Refined animations */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    50% {
+        transform: scale(1.15);
+        opacity: 0.9;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes blink {
+
+    0%,
+    100% {
+        opacity: 0.5;
+        transform: scale(0.8);
+    }
+
+    50% {
+        opacity: 1;
+        transform: scale(1.2);
+    }
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    nav {
+        bottom: 1.2rem;
+        padding: 0.6rem 1rem;
+    }
+
+    nav a {
+        padding: 0.7rem;
+        font-size: 0.9rem;
+    }
+
+    .icon {
+        font-size: 1.1rem;
+    }
+
+    .tooltip {
+        font-size: 0.7rem;
+        padding: 0.3rem 0.6rem;
+    }
+}
+
+/* Extra small device adjustments */
+@media screen and (max-width: 430px) {
+    nav {
+        padding: 0.5rem 0.8rem;
+        gap: 0.4rem;
+    }
+
+    nav a {
+        padding: 0.6rem;
+    }
+
+    .icon {
+        font-size: 1rem;
+    }
+}
+
+/* Fancy entrance animation for the navbar with smoother effect */
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translate(-50%, 30px);
+        filter: blur(5px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate(-50%, 0);
+        filter: blur(0);
+    }
+}
+
+nav {
+    animation: slideUp 0.7s ease-out forwards;
+}
+
+/* Interactive states */
+nav a:active {
+    transform: scale(0.95);
+}

@@ -1,0 +1,184 @@
+/* About Component Styles */
+.text-span {
+    display: block;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    font-size: 1.125rem;
+    line-height: 1.7;
+    color: #2d3748;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+    animation: slideInUp 0.8s ease-out;
+}
+
+/* Slide in animation for the entire component */
+@keyframes slideInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Subtle background animation */
+.text-span::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: linear-gradient(45deg, transparent, rgba(99, 102, 241, 0.05), transparent);
+    animation: backgroundShift 4s ease-in-out infinite;
+    pointer-events: none;
+}
+
+@keyframes backgroundShift {
+
+    0%,
+    100% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(2deg);
+    }
+}
+
+/* Enhanced bold text styling with gradient and animation */
+.text-span b {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 700;
+    font-size: 1.15em;
+    position: relative;
+    animation: pulseGlow 2s ease-in-out infinite;
+}
+
+@keyframes pulseGlow {
+
+    0%,
+    100% {
+        filter: brightness(1);
+        transform: scale(1);
+    }
+
+    50% {
+        filter: brightness(1.2);
+        transform: scale(1.02);
+    }
+}
+
+/* Highlight key phrases with subtle background */
+.text-span {
+    background-image:
+        linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%),
+        repeating-linear-gradient(90deg,
+            transparent,
+            transparent 35px,
+            rgba(99, 102, 241, 0.02) 36px,
+            rgba(99, 102, 241, 0.02) 37px);
+}
+
+/* Add emphasis to specific phrases */
+.text-span::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(90deg, #667eea, #764ba2, #667eea);
+    background-size: 200% 100%;
+    animation: gradientShift 3s ease-in-out infinite;
+}
+
+@keyframes gradientShift {
+
+    0%,
+    100% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+}
+
+/* Hover effects for interactivity */
+.text-span:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+}
+
+.text-span:hover b {
+    animation-duration: 1s;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .text-span {
+        font-size: 1rem;
+        padding: 1.5rem;
+        margin: 1rem;
+    }
+
+    .text-span b {
+        font-size: 1.1em;
+    }
+}
+
+@media (max-width: 480px) {
+    .text-span {
+        font-size: 0.95rem;
+        padding: 1.25rem;
+        line-height: 1.6;
+    }
+}
+
+/* Focus state for accessibility */
+.text-span:focus-within {
+    outline: 2px solid #667eea;
+    outline-offset: 2px;
+}
+
+/* Add a subtle typing cursor effect for the bold text */
+.text-span b::after {
+    content: '';
+    display: inline-block;
+    width: 2px;
+    height: 1em;
+    background: #667eea;
+    margin-left: 2px;
+    animation: blink 1.5s infinite;
+    vertical-align: text-bottom;
+}
+
+@keyframes blink {
+
+    0%,
+    50% {
+        opacity: 1;
+    }
+
+    51%,
+    100% {
+        opacity: 0;
+    }
+}
+
+/* Remove cursor effect on hover to prevent clutter */
+.text-span:hover b::after {
+    display: none; }
