@@ -1,0 +1,224 @@
+FOLLOW-UP EMAIL TEMPLATES - After applying, interviewing, or cold outreach
+
+================================================================================
+
+TEMPLATE 1: FOLLOW-UP AFTER APPLICATION (5-7 days, no response)
+
+Subject: Following up on [Position Title] Application - Animesh
+
+Hi [Recruiter First Name],
+
+I hope this email finds you well. I applied for the [Position Title] role at [Company Name] on [Date] and wanted to follow up on my application status.
+
+Since applying, I've been following [Company Name]'s recent work on [recent news/product update], which reinforced my interest in joining the team.
+
+As a quick reminder, I'm currently at Emergent (YC S24) where I:
+• Built AI diagnostic agent reducing debugging time by 35%
+• Work with Python, React, Node.js, FastAPI, and GCP
+• Have experience with [specific skill from job description]
+
+Portfolio: portfolio-beryl-eight-45.vercel.app
+Resume: [attach or Google Drive link]
+
+I'd love to discuss how my background aligns with the team's needs. Would you have time for a brief call this week?
+
+Thank you for your consideration!
+
+Best regards,
+Animesh
++91-9350409792
+d.animesh.pr@gmail.com
+
+================================================================================
+
+TEMPLATE 2: FOLLOW-UP AFTER PHONE SCREEN (2-3 days)
+
+Subject: Thank you - [Position Title] Interview
+
+Hi [Interviewer First Name],
+
+Thank you for taking the time to speak with me yesterday about the [Position Title] role. I really enjoyed our conversation about [specific topic discussed] and learning more about [Company Name]'s approach to [specific area].
+
+Our discussion about [technical challenge they mentioned] particularly resonated with me. At Emergent, I faced a similar challenge when [brief relevant example]. I'd love to bring this experience to [Company Name]'s team.
+
+I'm very excited about the opportunity to contribute to [specific project/team mentioned] and work with [technology/approach discussed].
+
+Please let me know if you need any additional information. I look forward to the next steps!
+
+Best regards,
+Animesh
+d.animesh.pr@gmail.com
++91-9350409792
+
+================================================================================
+
+TEMPLATE 3: FOLLOW-UP AFTER TECHNICAL INTERVIEW (Same day or next morning)
+
+Subject: Thank you for the [Position Title] Technical Interview
+
+Hi [Interviewer First Name],
+
+Thank you for today's technical interview for the [Position Title] role. I appreciated the opportunity to discuss [specific technical problem] and enjoyed working through the [coding challenge/system design] with you.
+
+After our conversation, I've been thinking about [technical topic discussed] and wanted to share an additional approach: [brief technical insight or improvement to your interview solution].
+
+I'm very enthusiastic about [Company Name]'s work on [specific project] and the team's focus on [technical area]. The challenges you described align perfectly with my experience building [relevant project].
+
+Looking forward to hearing about next steps!
+
+Best regards,
+Animesh
+Portfolio: portfolio-beryl-eight-45.vercel.app
+
+================================================================================
+
+TEMPLATE 4: FOLLOW-UP AFTER FINAL ROUND (Next day)
+
+Subject: Thank you - [Position Title] Final Interview
+
+Hi [Hiring Manager/Team],
+
+I wanted to thank you all for the time you spent with me during yesterday's final round interviews. It was fantastic to meet the team and dive deep into [specific topics discussed].
+
+Meeting [mention 1-2 specific people] and hearing about [specific project/initiative] confirmed my strong interest in joining [Company Name]. The team's approach to [specific challenge] and focus on [company value] aligns perfectly with what I'm looking for in my next role.
+
+I'm excited about the possibility of contributing to [specific project/team] and bringing my experience with [relevant skills] to the team.
+
+Please don't hesitate to reach out if you need any additional information. I'm happy to provide references or discuss anything further.
+
+Thank you again for the opportunity!
+
+Best regards,
+Animesh
+d.animesh.pr@gmail.com | +91-9350409792
+
+================================================================================
+
+TEMPLATE 5: FOLLOW-UP ON COLD EMAIL (7 days, no response)
+
+Subject: Re: [Original Subject Line] - Quick Follow-up
+
+Hi [Recruiter First Name],
+
+I hope you're doing well! I wanted to follow up on my email from last week about [Position/Opportunity] at [Company Name].
+
+I understand you're likely busy, so I'll keep this brief:
+
+I'm a Software Engineer at Emergent (YC S24) with experience in:
+→ AI/ML infrastructure (35% debugging improvement)
+→ Full-stack development (Python, React, Node.js)
+→ Cloud systems (GCP, distributed systems)
+
+Recent project demo: loom.com/share/39177663278b4fbabebf2f0f814ddac4
+Complete portfolio: portfolio-beryl-eight-45.vercel.app
+
+Would a 15-minute exploratory call work for you this week? I'd love to learn about [Company Name]'s engineering needs and see if there's a potential fit.
+
+No worries if timing isn't right - happy to reconnect in a few months!
+
+Best,
+Animesh
+d.animesh.pr@gmail.com
+
+================================================================================
+
+TEMPLATE 6: FOLLOW-UP AFTER REJECTION (Staying on radar)
+
+Subject: Thank you & staying connected
+
+Hi [Recruiter/Hiring Manager First Name],
+
+Thank you for letting me know about the decision on the [Position Title] role. While I'm disappointed, I really appreciated the opportunity to interview with [Company Name] and learn about the team's work on [specific project].
+
+I remain very interested in [Company Name] and would love to be considered for future opportunities that might be a better fit. I'm continuously growing my skills in [relevant areas] and working on [mention ongoing project or learning].
+
+If it's helpful, I'd appreciate any feedback you can share about my interview performance or areas where I could improve.
+
+I'll continue following [Company Name]'s work and hope our paths cross again. Feel free to reach out if any suitable positions open up!
+
+Best regards,
+Animesh
+Portfolio: portfolio-beryl-eight-45.vercel.app
+LinkedIn: linkedin.com/in/animesh-dhillon-a3387221b/
+
+================================================================================
+
+TEMPLATE 7: FOLLOW-UP AFTER VERBAL OFFER (Confirming details)
+
+Subject: Thank you - Excited about joining [Company Name]!
+
+Hi [Hiring Manager First Name],
+
+Thank you so much for the offer to join [Company Name] as a [Position Title]! I'm thrilled about the opportunity to contribute to [specific team/project] and work with such a talented team.
+
+As discussed, I'm looking forward to receiving the formal written offer with details about:
+• Start date
+• Compensation and benefits package
+• Equity/stock options (if applicable)
+• Remote work policy
+
+I'm very excited to get started and bring my experience with [relevant skills] to the team!
+
+Please let me know if you need any additional information from my end.
+
+Best regards,
+Animesh
+d.animesh.pr@gmail.com
++91-9350409792
+
+================================================================================
+
+TIMING GUIDELINES:
+
+After Application: 5-7 business days
+After Phone Screen: 24-48 hours (thank you), then 5-7 days if no update
+After Technical: Same day or next morning
+After Final Round: Next business day
+After Rejection: Within 48 hours (optional but recommended)
+Cold Email Follow-up: 5-7 business days
+Second Follow-up: 2 weeks after first follow-up (max 2 follow-ups total)
+
+================================================================================
+
+FOLLOW-UP CHECKLIST:
+
+☐ Wait appropriate time (see timing guidelines)
+☐ Reference specific conversation details
+☐ Keep it brief (under 150 words)
+☐ Include new information or insight when possible
+☐ Restate enthusiasm for role/company
+☐ Clear next step or question
+☐ Professional subject line
+☐ Proofread for errors
+☐ Send during business hours
+☐ Don't sound desperate or pushy
+
+WHAT TO INCLUDE:
+✓ Thank them for their time
+✓ Reference specific conversation points
+✓ Reiterate interest in role/company
+✓ Add value (new insight, additional info)
+✓ Clear call-to-action
+✓ Professional sign-off
+
+WHAT TO AVOID:
+✗ Apologizing for following up
+✗ Sounding desperate or pushy
+✗ Being too casual or familiar
+✗ Writing long paragraphs
+✗ Asking about salary too early
+✗ Being negative about current role
+✗ Following up more than twice
+✗ Sending follow-up immediately
+✗ Bringing up unrelated topics
+✗ Generic copy-paste messages
+
+PRO TIPS:
+🔥 Always add value in follow-ups
+🔥 Reference specific conversation details
+🔥 Keep tone positive and professional
+🔥 Show continued interest naturally
+🔥 Include portfolio/project links
+🔥 Make it easy to respond (yes/no questions)
+🔥 Tuesday-Thursday 10am-2pm for best response rates
+🔥 If no response after 2 follow-ups, move on gracefully

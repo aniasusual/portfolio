@@ -1,10 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import './nav.css';
-import { AiOutlineHome } from 'react-icons/ai';
 import { AiOutlineUserAdd } from 'react-icons/ai';
 import { BsJournalBookmarkFill } from 'react-icons/bs';
-import { RiServiceFill } from 'react-icons/ri';
 import { IoMdContact } from 'react-icons/io';
+import { MdWork } from 'react-icons/md';
 
 const Nav = () => {
     const [activeNav, setActiveNav] = useState('#about');
@@ -24,7 +23,7 @@ const Nav = () => {
 
         // Function to determine active section based on scroll position
         const updateActiveSection = () => {
-            const sections = ['#about', '#portfolio', '#contact'];
+            const sections = ['#about', '#portfolio', '#experience', '#contact'];
 
             // Only update if we're actually scrolling through the page
             if (window.scrollY > 100) {
@@ -92,6 +91,14 @@ const Nav = () => {
                 >
                     <BsJournalBookmarkFill className="icon" />
                     <span className="tooltip">Projects</span>
+                </a>
+                <a
+                    href="#experience"
+                    onClick={(e) => handleNavClick(e, '#experience')}
+                    className={activeNav === '#experience' ? 'active' : ''}
+                >
+                    <MdWork className="icon" />
+                    <span className="tooltip">Experience</span>
                 </a>
                 <a
                     href="#contact"

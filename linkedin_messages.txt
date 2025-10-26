@@ -1,0 +1,178 @@
+LINKEDIN OUTREACH TEMPLATES - Connection requests & messages
+
+================================================================================
+
+TEMPLATE 1: CONNECTION REQUEST TO RECRUITER
+(Max 300 characters with note)
+
+Hi [First Name], I'm a Software Engineer at Emergent (YC S24) interested in [Position/Company]. Built AI agent reducing debugging by 35%. Would love to connect and learn about opportunities at [Company Name]!
+
+Portfolio: portfolio-beryl-eight-45.vercel.app
+
+---
+
+TEMPLATE 2: CONNECTION REQUEST TO HIRING MANAGER
+
+Hi [First Name], Software Engineer here with experience in [relevant tech from their profile]. Currently at YC startup building AI infrastructure. Impressed by [Company]'s work on [specific project]. Would love to connect!
+
+---
+
+TEMPLATE 3: CONNECTION REQUEST TO ENGINEER AT TARGET COMPANY
+
+Hi [First Name], Fellow engineer here! Saw your work on [project/tech they posted about]. I'm building AI agents at a YC startup. Would love to connect and exchange experiences with [specific tech]!
+
+================================================================================
+
+FOLLOW-UP MESSAGE AFTER CONNECTION ACCEPTED
+(Send within 24 hours)
+
+================================================================================
+
+VERSION 1: TO RECRUITER (Immediate opportunity)
+
+Hi [First Name],
+
+Thanks for connecting! I wanted to reach out because I'm actively exploring [Position Type] opportunities and noticed [Company Name] is hiring for [Specific Role].
+
+Quick background:
+• Software Engineer at Emergent (YC S24)
+• Built AI diagnostic agent reducing production debugging by 35%
+• Tech stack: Python, React, Node.js, FastAPI, GCP, AI/ML
+• Recent project: [mention most relevant project from portfolio]
+
+I'm particularly interested in [Company Name] because [specific reason about company/product].
+
+Here's my portfolio with live demos: portfolio-beryl-eight-45.vercel.app
+
+Would you have 15 minutes this week to discuss how I could contribute to the team? Happy to share more about my experience building [relevant skill from job description].
+
+Best,
+Animesh
+
+---
+
+VERSION 2: TO RECRUITER (Exploratory - no specific opening)
+
+Hi [First Name],
+
+Thanks for connecting! I'm a Software Engineer at Emergent, a YC S24 startup, where I've been building AI-powered infrastructure for production debugging.
+
+I'm exploring opportunities with companies working on [specific area: AI/ML, distributed systems, etc.] and came across [Company Name]'s impressive work on [specific product/initiative].
+
+My recent projects:
+→ AI diagnostic agent (35% faster debugging)
+→ Metaverse platform with WebRTC + Three.js
+→ Chrome extension with 100+ active users
+
+Portfolio: portfolio-beryl-eight-45.vercel.app
+
+Even if there's no immediate opening, I'd love to stay connected and learn about [Company Name]'s engineering culture. Open to a quick intro call whenever works for you!
+
+Best regards,
+Animesh
+
+---
+
+VERSION 3: TO HIRING MANAGER/ENGINEERING LEADER
+
+Hi [First Name],
+
+Thanks for connecting! I've been following [Company Name]'s work on [specific product/technology] and am impressed by [specific achievement or approach].
+
+I'm currently at Emergent (YC S24) building AI infrastructure, but I'm exploring opportunities with teams pushing boundaries in [relevant area].
+
+Quick highlights:
+• Architected AI agent for GCP production debugging (35% efficiency gain)
+• Full-stack: Python FastAPI backend + React frontend
+• Experience with distributed systems, microservices, GCP
+
+My work: portfolio-beryl-eight-45.vercel.app
+AI Agent Demo: loom.com/share/39177663278b4fbabebf2f0f814ddac4
+
+If [Company Name] is looking for engineers with AI/full-stack experience, I'd love to chat about how I could contribute. Also happy to just connect and learn from your experience building [mention their work].
+
+Best,
+Animesh
+
+---
+
+VERSION 4: TO PEER ENGINEER (Networking - no immediate ask)
+
+Hi [First Name],
+
+Thanks for connecting! Saw your post about [technology/project they shared] - really interesting approach to [specific aspect].
+
+I'm working on similar challenges at Emergent (YC S24), specifically around [related area]. Built an AI diagnostic agent that reduced our debugging time by 35% using [relevant tech].
+
+Would love to hear about your experience with [technology] at [Company Name]. Always looking to learn from engineers working on interesting problems!
+
+If you're curious about my projects: portfolio-beryl-eight-45.vercel.app
+
+Cheers,
+Animesh
+
+================================================================================
+
+LINKEDIN INMESSAGE AFTER APPLYING (To recruiter)
+
+Subject: Application for [Position Title] - Animesh
+
+Hi [First Name],
+
+I just submitted my application for the [Position Title] role at [Company Name] and wanted to reach out directly.
+
+I'm currently at Emergent (YC S24) where I built an AI diagnostic agent that reduced production debugging time by 35%. The role's focus on [specific requirement from job description] aligns perfectly with my experience in [your relevant experience].
+
+Key qualifications:
+→ [Top requirement from job description]: [Your relevant experience]
+→ [Second requirement]: [Your relevant experience]
+→ [Third requirement]: [Your relevant experience]
+
+Portfolio with live demos: portfolio-beryl-eight-45.vercel.app
+
+Happy to discuss how my background fits the role. Available for a call this week if you'd like to connect!
+
+Best regards,
+Animesh
+d.animesh.pr@gmail.com | +91-9350409792
+
+================================================================================
+
+CUSTOMIZATION CHECKLIST:
+
+CONNECTION REQUEST:
+☐ Keep under 300 characters with spaces
+☐ Use recruiter/person's first name
+☐ Mention specific company/position
+☐ Include one impressive metric (35%, YC S24, 100+ users)
+☐ Send during business hours (9am-5pm their timezone)
+
+FOLLOW-UP MESSAGE:
+☐ Send within 24 hours of connection acceptance
+☐ Reference something specific about company/person
+☐ Keep under 200 words
+☐ Include 2-3 bullet points max
+☐ Clear call-to-action
+☐ Link to portfolio
+☐ Professional but warm tone
+
+TIPS FOR LINKEDIN SUCCESS:
+✓ Comment on their posts before sending request
+✓ Mention mutual connections if any
+✓ Personalize every message (no copy-paste)
+✓ Research their background before reaching out
+✓ Include specific project/product names
+✓ Use emojis sparingly (→ bullets are safe)
+✓ Don't send resume in first message (unless requested)
+✓ Wait 2-3 days between follow-ups
+✓ Connect with multiple people at target company
+✓ Engage with company content regularly
+
+RESPONSE RATE BOOSTERS:
+🔥 Mention YC S24 startup early (instant credibility)
+🔥 Lead with metrics (35% improvement, 100+ users)
+🔥 Reference their specific work/posts
+🔥 Keep initial message under 150 words
+🔥 Include portfolio link (visual proof)
+🔥 Ask for 15-minute call (low commitment)
+🔥 Send Tuesday-Thursday 10am-2pm (best open rates)

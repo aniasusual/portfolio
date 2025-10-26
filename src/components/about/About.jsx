@@ -4,18 +4,23 @@ import "./about.css";
 const About = () => {
   return (
     <span className="text-span">
-      I have a knack for solving problems. You can see my work in my portfolio.
-      I'm currently developing an innovative desktop solution in{" "}
-      <b>ElectronJs </b>
-      designed to enhance all kinds of meetings. This tool transcribes the other
-      participant's voice in real-time and instantly generates smart,
-      context-aware responses—just like an <b>AI-powered teleprompter</b>. You
-      simply speak the suggested reply, perfectly timed to the conversation.
-      We're also working on advanced features like on-screen text recognition to
-      generate real-time solutions based on visual content—without revealing
-      anything on screen shares. It's seamless, intelligent, and designed to
-      keep you one step ahead in every conversation.{" "}
-      <b>Stay tuned—launch coming soon.</b>
+      I'm a <b>Full-Stack Software Engineer</b> passionate about building intelligent systems that solve real-world problems.
+      Currently, I'm part of the engineering team at <b>Emergent (YC S24)</b>, a Y Combinator startup ranked among the
+      world's top 10 fastest-growing companies.
+      {" "}
+      <br /><br />
+      I'm currently architecting an <b>AI-powered diagnostic agent</b> that revolutionizes how engineering teams debug
+      production issues on <b>Google Cloud Platform</b>. This autonomous agent understands complex multi-service
+      architectures, intelligently analyzes logs across distributed systems, and performs cross-service root cause analysis—reducing
+      ticket resolution time by <b>35%</b>.
+      {" "}
+      <br /><br />
+      Beyond AI agents, I've built everything from <b>real-time metaverse platforms</b> with WebRTC and Three.js, to
+      <b> RAG-powered chatbots</b>, and <b>Chrome extensions</b> that act as AI copilots for video calls.
+      I thrive on challenges that blend <b>backend architecture</b>, <b>AI/ML integration</b>, and <b>intuitive frontend experiences</b>.
+      {" "}
+      <br /><br />
+      <b>Let's build something extraordinary together.</b>
     </span>
   );
 };

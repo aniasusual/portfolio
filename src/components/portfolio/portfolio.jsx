@@ -6,8 +6,220 @@ import { X, ChevronRight, ExternalLink, LucideGithub } from 'lucide-react';
 const portfolioData = [
   {
     id: 1,
+    video: 'https://www.loom.com/share/39177663278b4fbabebf2f0f814ddac4',
+    videoPoster: '/path/to/poster-image.jpg',
+    title: 'GCP Intelligent Log Analysis Agent',
+    desc: `## Enterprise-Grade AI-Powered Diagnostic Agent for Google Cloud Platform
+
+Built at Emergent (YC S24) to revolutionize how engineering teams diagnose and resolve production issues across complex multi-service architectures deployed on Google Cloud Platform.
+
+### The Problem
+Traditional log analysis is:
+- **Time-Consuming**: Engineers manually search through thousands of log entries across multiple services
+- **Error-Prone**: Missing critical log patterns hidden across distributed systems
+- **Inefficient**: No automated correlation between services, making root cause analysis difficult
+- **Reactive**: Teams discover issues only after they escalate into major incidents
+
+### The Solution: Intelligent Autonomous Agent
+
+An AI-powered diagnostic agent that understands your entire GCP infrastructure and autonomously investigates issues with human-level reasoning.
+
+---
+
+## How It Works
+
+### 1. Architecture-Aware Intelligence
+The agent maintains a complete understanding of your GCP project structure:
+- **Services**: Cloud Run, App Engine, Compute Engine, GKE clusters
+- **Deployments**: Kubernetes deployments, pods, containers
+- **Resources**: Load balancers, databases (Cloud SQL, Firestore), storage buckets
+- **Networking**: VPCs, subnets, service mesh configurations
+- **Dependencies**: Service-to-service communication patterns and API relationships
+
+This architectural knowledge enables the agent to make intelligent decisions about where to investigate when issues arise.
+
+### 2. Natural Language Query Processing
+Simply describe the issue in plain English:
+- "Why is the checkout service returning 500 errors?"
+- "Payment API latency increased in the last hour"
+- "Users reporting authentication failures on mobile app"
+- "Database connection pool exhausted on production"
+
+The agent interprets your query, understands context, and begins autonomous investigation.
+
+### 3. Intelligent Filter Generation
+Based on your query and project architecture, the agent automatically determines:
+- **Time Range**: Dynamically calculated based on issue urgency and patterns
+- **Severity Filters**: ERROR, WARNING, CRITICAL, INFO based on query context
+- **Service Filters**: Identifies relevant services and their dependencies
+- **Resource Filters**: Specific pods, containers, or deployment versions
+- **Custom Filters**: Label selectors, trace IDs, user IDs, or any GCP logging filter
+
+**Example**: Query about authentication failures automatically filters:
+- Auth service logs + API Gateway logs + Identity Provider logs
+- Time range: Last 2 hours with pattern analysis
+- Severity: ERROR and CRITICAL
+- Trace correlation across all three services
+
+### 4. Autonomous Log Retrieval & Pagination
+- Calls GCP Cloud Logging API with optimally generated filters
+- Automatically handles pagination using \`nextPageToken\` when initial results are insufficient
+- Retrieves logs across multiple services simultaneously
+- Continues investigation until confident diagnosis is reached or max depth is achieved
+
+### 5. Cross-Service Root Cause Analysis
+The agent doesn't just read logs—it **investigates relationships**:
+
+**Example Investigation Flow**:
+1. User reports: "Checkout failing for customers"
+2. Agent examines checkout service logs → finds HTTP 503 errors
+3. Traces upstream to payment service → discovers connection timeouts
+4. Investigates payment service → identifies database connection pool exhaustion
+5. Checks database logs → reveals slow queries from inventory service
+6. **Root Cause Found**: Inventory service deployed a new version with unoptimized query causing cascade failure
+
+The agent maps the complete failure chain across services and presents a clear root cause analysis.
+
+### 6. Confidence-Based Reasoning
+If the agent doesn't find conclusive evidence:
+- **Questions User**: "Could this issue be related to the recent deployment at 14:32 UTC?"
+- **Suggests Actions**: "I found partial evidence in auth logs. Should I expand the search to include the upstream API gateway?"
+- **Requests Context**: "Are there any recent configuration changes to the Cloud SQL instance?"
+- **Proposes Filters**: "Would you like me to investigate a broader time range or include INFO-level logs?"
+
+### 7. Interactive Filter Buttons (Smart UX)
+Instead of overwhelming users with thousands of log lines, the agent:
+- Analyzes logs and identifies relevant patterns
+- Returns **filter configurations** to the backend
+- Frontend displays **"View Relevant Logs"** buttons embedded with precise filters
+- Clicking a button opens GCP Cloud Logging console or in-app viewer with exact filters applied
+
+**Benefits**:
+- Users see analysis first, logs second
+- Only relevant logs are displayed
+- One-click access to exact log entries
+- Maintains clean chatbot UX without log spam
+
+---
+
+## Technical Architecture
+
+### Backend: FastAPI (Python)
+- RESTful API endpoints for agent communication
+- GCP Cloud Logging API integration
+- Asynchronous log retrieval and processing
+- Filter generation and optimization engine
+- Session management for multi-turn conversations
+
+### Frontend: React.js
+- Real-time chat interface with streaming responses
+- Dynamic button rendering for log filter actions
+- Interactive visualization of service dependency graphs
+- Mobile-responsive design for on-call engineers
+
+### AI Agent: AGNO Framework
+- Multi-step reasoning and planning capabilities
+- Tool calling for GCP API interactions
+- Context retention across conversation turns
+- Self-reflection and confidence scoring
+- Autonomous decision-making for investigation paths
+
+### GCP Integration
+- **Cloud Logging API**: Log retrieval with advanced filtering
+- **Error Reporting API**: Aggregated error insights
+- **Cloud Monitoring API**: Metrics correlation with logs
+- **Cloud Trace API**: Distributed tracing for request flow analysis
+- **Service Directory**: Dynamic service discovery
+
+---
+
+## Key Features
+
+### Comprehensive GCP Coverage
+Supports all major GCP services:
+- Compute: GCE, GKE, Cloud Run, App Engine, Cloud Functions
+- Storage: Cloud Storage, Filestore, Persistent Disks
+- Databases: Cloud SQL, Firestore, Bigtable, Spanner, Memorystore
+- Networking: VPC, Load Balancers, Cloud CDN, Cloud Armor
+- Identity: IAM, Identity Platform, Security Command Center
+
+### Advanced Investigation Capabilities
+- **Distributed Tracing**: Follow request paths across microservices
+- **Error Correlation**: Identify common patterns across services
+- **Performance Analysis**: Detect latency spikes and bottlenecks
+- **Security Investigation**: Analyze unauthorized access attempts
+- **Cost Anomalies**: Identify unexpected resource usage patterns
+
+### Proactive Suggestions
+- Recommends preventive actions based on patterns
+- Suggests infrastructure improvements
+- Identifies potential security vulnerabilities
+- Proposes cost optimization opportunities
+
+### Multi-Format Log Support
+- JSON structured logs
+- Plain text logs
+- Stackdriver format
+- Custom log formats with automatic parsing
+
+---
+
+## Impact & Results
+
+**35% Reduction in Ticket Resolution Time**
+- Automated initial investigation replaces hours of manual log searching
+- Engineers receive root cause analysis instead of raw logs
+- Faster mean-time-to-resolution (MTTR) for production incidents
+
+**Improved Incident Response**
+- 24/7 availability for on-call engineers
+- Instant context about complex multi-service issues
+- Reduces escalation to senior engineers by 40%
+
+**Enhanced Observability**
+- Proactive issue detection before user impact
+- Better understanding of service dependencies
+- Improved documentation of incident patterns
+
+---
+
+## Use Cases
+
+### 1. Production Incident Response
+**Scenario**: Payment processing failures spiking
+**Agent Action**: Identifies authentication token expiry in Redis cache, traces to scheduled certificate rotation, provides immediate fix
+
+### 2. Performance Degradation
+**Scenario**: API latency increased by 200ms
+**Agent Action**: Discovers N+1 query pattern in new ORM migration, suggests database index creation
+
+### 3. Security Investigation
+**Scenario**: Unusual access patterns detected
+**Agent Action**: Correlates failed auth attempts with IP addresses, identifies brute force attack, recommends rate limiting
+
+### 4. Cost Optimization
+**Scenario**: Unexpected GCP bill increase
+**Agent Action**: Analyzes resource usage logs, identifies zombie Cloud Run instances from failed deployments
+
+---
+
+## Why This Matters
+
+Traditional monitoring tools show **what** is happening.
+This agent tells you **why** it's happening and **how** to fix it.
+
+It's not just log search—it's an AI teammate that thinks like a senior engineer, understands your infrastructure, and works 24/7 to keep your systems healthy.
+
+Built for teams running complex cloud-native applications who need intelligent, autonomous incident response at scale.`,
+    github: '',
+    demo: '',
+    category: 'agent',
+    technologies: ['Python', 'FastAPI', 'React', 'AGNO', 'GCP', 'Cloud Logging', 'AI Agents']
+  },
+  {
+    id: 2,
     video: 'https://drive.google.com/file/d/10uMdEL-GRQwodjdyVXk4bPuEy5YuX5Px/view?usp=sharing', // MP4 video file path
-    videoPoster: '/path/to/poster-image.jpg', // Optional thumbnail image 
+    videoPoster: '/path/to/poster-image.jpg', // Optional thumbnail image
     title: 'Hyperlocal',
     desc: `
      🌐 Hyperlocal Social Networking with Jams — Real-Time Metaverse Interactions  
@@ -58,23 +270,23 @@ const portfolioData = [
     technologies: ['React', 'Node.js', 'WebRTC', 'Three.js', 'sockets'] // Optional technologies list
   },
   {
-    id: 2,
+    id: 3,
     video: 'https://drive.google.com/file/d/1Z2sGETAEMSiQiVd65K7PpgjiI62UPm6i/view?usp=sharing', // MP4 video file path
-    videoPoster: '/path/to/poster-image.jpg', // Optional thumbnail image 
+    videoPoster: '/path/to/poster-image.jpg', // Optional thumbnail image
     title: 'Wingman',
-    desc: `📢 Ever been on a video call thinking… "What do I say next?" Or worse — "I wish I had said that instead…" / "That response could’ve been better…" / "I totally forgot to bring that up…" / "I missed that key slide while presenting."
+    desc: `📢 Ever been on a video call thinking… "What do I say next?" Or worse — "I wish I had said that instead…" / "That response could've been better…" / "I totally forgot to bring that up…" / "I missed that key slide while presenting."
 
-Same. That’s exactly why I built Wingman – your real-time copilot for every video call.
+Same. That's exactly why I built Wingman – your real-time copilot for every video call.
 
-🎯 Whether it’s a sales pitch, investor meeting, job interview, or internal sync, Wingman’s got your back – live, discreet, and crazy smart.
+🎯 Whether it's a sales pitch, investor meeting, job interview, or internal sync, Wingman's got your back – live, discreet, and crazy smart.
 
 💡 What Wingman does:
 🔹 Gives answers in real time that are best suited for the situation – as soon as the other person speaks during a call, Wingman transcribes the audio and gives you the perfect response for that moment. Say the right thing, at the right time, and ace every kind of video meeting.
-🔹 Transcribes the other person’s voice in real time
+🔹 Transcribes the other person's voice in real time
 🔹 Sends it to AI for on-point replies + suggestions
 🔹 To enhance quality of responses upload your notes, PDFs, slides – Wingman uses that as context
 🔹 Want to present better? Hit Generate Presentation → get a live teleprompt
-🔹 Runs in a stealth window – even screen shares won’t see it
+🔹 Runs in a stealth window – even screen shares won't see it
 🔹 Download full transcripts + AI-generated responses anytime`,
     github: '',
     demo: 'https://chromewebstore.google.com/detail/hdiapnnfffonbipnnmfpcdeekeihnglc?utm_source=item-share-cb',
@@ -82,9 +294,9 @@ Same. That’s exactly why I built Wingman – your real-time copilot for every 
     technologies: ['React', 'Node.js'] // Optional technologies list
   },
   {
-    id: 3,
+    id: 4,
     video: 'https://drive.google.com/file/d/1tvW3sMBvKlGlrWVOta8UvI1kXTbRs0T7/view?usp=sharing', // MP4 video file path
-    videoPoster: '/path/to/poster-image.jpg', // Optional thumbnail image 
+    videoPoster: '/path/to/poster-image.jpg', // Optional thumbnail image
     title: 'RAG-chatbot',
     desc: `The NewsBot application is a full-stack, intelligent chatbot designed to answer user queries
 using a Retrieval-Augmented Generation (RAG) pipeline. Built with a Node.js/Express back-
@@ -252,7 +464,7 @@ Bot suitable for production deployment.`,
     technologies: ['React', 'Node.js', 'RAG', 'VectorDB-Qdrant', 'Redis'] // Optional technologies list
   },
   {
-    id: 4,
+    id: 5,
     video: 'https://drive.google.com/file/d/1BTzaclGDk32fNGizqsqZmp5zUGQ8GePI/view?usp=sharing', // MP4 video file path
     videoPoster: '/path/to/poster-image.jpg', // Optional thumbnail image 
     title: 'Drone Simulator',
@@ -328,7 +540,7 @@ Required fields: latitude, longitude, timestamp
     technologies: ['React', 'Node.js', 'maps', 'MongoDB', 'express'] // Optional technologies list
   },
   {
-    id: 5,
+    id: 6,
     video: 'https://drive.google.com/file/d/1WlEyPsU3B7D4g3aYrDd52dpwCoXm-CJs/view?usp=sharing', // MP4 video file path
     videoPoster: '/path/to/poster-image.jpg', // Optional thumbnail image 
     title: 'Opulent-Print on demand ecommerce',
@@ -358,7 +570,7 @@ This project showcases my ability to build scalable, user-centric web applicatio
     technologies: ['React', 'Node.js', 'MongoDb', 'Redux', 'express'] // Optional technologies list
   },
   {
-    id: 6,
+    id: 7,
     video: 'https://drive.google.com/file/d/1IGKhPw1JZPoJU1dRMRLu74f1nMmCNN9B/view?usp=sharing', // MP4 video file path
     videoPoster: '/path/to/poster-image.jpg', // Optional thumbnail image 
     title: 'Anywhere',
@@ -389,7 +601,7 @@ This project demonstrates my expertise in developing dynamic, user-focused socia
     technologies: ['React', 'Node.js', 'Redux', 'Mongodb', 'express', 'Redis'] // Optional technologies list
   },
   {
-    id: 7,
+    id: 8,
     video: 'https://drive.google.com/file/d/1rEEjnpFg7uG4RMzs2gCSx4LG9Dsth755/view?usp=sharing', // MP4 video file path
     videoPoster: '/path/to/poster-image.jpg', // Optional thumbnail image 
     title: 'Cafe-des-Juit',
@@ -409,12 +621,22 @@ to add to their cart.
   // ...other projects
 ];
 
-// Function to convert Google Drive URL to preview link for video embedding
+// Function to convert Google Drive URL or Loom URL to preview link for video embedding
 const getGoogleDriveVideoUrl = (url) => {
+  // Handle Loom videos
+  if (url.includes('loom.com/share/')) {
+    const loomIdMatch = url.match(/loom\.com\/share\/([a-zA-Z0-9]+)/);
+    if (loomIdMatch && loomIdMatch[1]) {
+      return `https://www.loom.com/embed/${loomIdMatch[1]}`;
+    }
+  }
+
+  // Handle Google Drive videos
   const fileIdMatch = url.match(/\/d\/(.+?)\/view/);
   if (fileIdMatch && fileIdMatch[1]) {
     return `https://drive.google.com/file/d/${fileIdMatch[1]}/preview`;
   }
+
   return url; // Fallback to original URL if parsing fails
 };
 
@@ -642,6 +864,12 @@ const Portfolio = () => {
           onClick={() => handleFilter('web')}
         >
           Web Apps
+        </button>
+        <button
+          className={`filter-btn ${activeFilter === 'agent' ? 'active' : ''}`}
+          onClick={() => handleFilter('agent')}
+        >
+          AI Agents
         </button>
         <button
           className={`filter-btn ${activeFilter === 'chatbot' ? 'active' : ''}`}

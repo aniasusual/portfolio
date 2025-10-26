@@ -1,0 +1,99 @@
+COLD EMAIL TEMPLATE FOR RECRUITERS - Quick and impactful
+
+================================================================================
+
+SUBJECT LINE OPTIONS (Pick one or customize):
+• Software Engineer interested in [Company Name] - AI/Full-Stack background
+• YC Startup Engineer exploring [Position] at [Company]
+• Reducing production debugging by 35% → Interested in [Company Name]
+• Full-Stack Engineer with AI experience seeking [Position]
+
+================================================================================
+
+EMAIL BODY:
+
+Hi [Recruiter First Name],
+
+I hope this email finds you well. I'm Animesh, a Software Engineer currently at Emergent (YC S24), and I'm very interested in [Position Title] opportunities at [Company Name].
+
+QUICK SNAPSHOT OF MY BACKGROUND:
+• Software Engineer at Y Combinator S24 startup (top 10 fastest-growing globally)
+• Built AI diagnostic agent reducing production debugging time by 35%
+• Full-stack expertise: Python, React, Node.js, FastAPI, GCP, AI/ML
+• Shipped multiple products: metaverse platform, AI agents, Chrome extension (100+ users)
+
+RELEVANT EXPERIENCE FOR [COMPANY NAME]:
+• Architected AI-powered systems using Python FastAPI + React + AGNO framework
+• GCP production experience: Cloud Run, GKE, Cloud Logging, 99.9% uptime
+• Real-time applications: WebRTC, Socket.IO, distributed systems
+• Backend APIs improving data accuracy by 30% at Antino Labs
+
+I'm particularly drawn to [Company Name] because of [specific reason: product, mission, tech stack, or recent news].
+
+PORTFOLIO & DEMOS:
+• AI Agent Demo: loom.com/share/39177663278b4fbabebf2f0f814ddac4
+• Live Projects: portfolio-beryl-eight-45.vercel.app
+• GitHub: github.com/aniasusual
+• Resume: [Attach or link]
+
+Would you be open to a brief 15-minute call to discuss how my experience aligns with [Company Name]'s needs? I'm happy to work around your schedule.
+
+Thank you for your time!
+
+Best regards,
+Animesh
++91-9350409792
+d.animesh.pr@gmail.com
+LinkedIn: linkedin.com/in/animesh-dhillon-a3387221b/
+
+================================================================================
+
+SHORTER VERSION (For busy recruiters - 150 words):
+
+Hi [Recruiter First Name],
+
+I'm Animesh, a Software Engineer at Emergent (YC S24), reaching out about [Position Title] at [Company Name].
+
+Quick background:
+→ Built AI diagnostic agent reducing debugging time by 35%
+→ Full-stack: Python, React, Node.js, FastAPI, GCP
+→ Shipped metaverse platform, AI agents, Chrome extension (100+ users)
+→ YC startup experience with rapid product iteration
+
+Why [Company Name]: [One sentence about specific interest]
+
+Portfolio: portfolio-beryl-eight-45.vercel.app
+AI Agent Demo: loom.com/share/39177663278b4fbabebf2f0f814ddac4
+
+Open to a quick 15-min call? Happy to share how my AI/full-stack experience can add value to your team.
+
+Best,
+Animesh
+d.animesh.pr@gmail.com | +91-9350409792
+LinkedIn: linkedin.com/in/animesh-dhillon-a3387221b/
+
+================================================================================
+
+CUSTOMIZATION CHECKLIST:
+☐ Choose appropriate subject line
+☐ Replace [Recruiter First Name] (find on LinkedIn)
+☐ Replace [Company Name] (appears 5+ times)
+☐ Replace [Position Title] with specific role
+☐ Customize "RELEVANT EXPERIENCE" based on job description
+☐ Personalize "Why [Company Name]" (research required)
+☐ Attach resume PDF or include Google Drive link
+☐ Use shorter version if emailing senior/busy recruiter
+☐ Send during business hours (Tuesday-Thursday, 10am-2pm best)
+☐ Follow up after 5-7 days if no response
+
+TIPS FOR SUCCESS:
+✓ Keep email under 250 words (shorter version preferred)
+✓ Lead with YC startup credential (instant credibility)
+✓ Include quantifiable metrics (35%, 100+ users, 99.9%)
+✓ Make demo/portfolio links clickable
+✓ Research company before sending (mention specific product/initiative)
+✓ Personalize subject line with company name
+✓ Use recruiter's first name (find on LinkedIn)
+✓ Clear call-to-action (15-minute call)
+✓ Professional but conversational tone
+✓ Mobile-friendly formatting (short paragraphs)

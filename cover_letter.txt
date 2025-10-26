@@ -1,0 +1,65 @@
+COVER LETTER TEMPLATE - Copy and customize for each application
+
+================================================================================
+
+Animesh
++91-9350409792 | d.animesh.pr@gmail.com
+LinkedIn: linkedin.com/in/animesh-dhillon-a3387221b/
+GitHub: github.com/aniasusual
+Portfolio: portfolio-beryl-eight-45.vercel.app
+
+[Date]
+
+[Hiring Manager Name]
+[Company Name]
+[Company Address]
+
+Dear [Hiring Manager Name/Hiring Team],
+
+I am writing to express my interest in the [Position Title] role at [Company Name]. As a Full-Stack Software Engineer at Emergent (YC S24), a Y Combinator startup ranked among the world's top 10 fastest-growing companies, I have architected AI-powered infrastructure that reduced production debugging time by 35%.
+
+TECHNICAL HIGHLIGHTS RELEVANT TO YOUR ROLE:
+• Built AI diagnostic agent using Python FastAPI, React, and AGNO framework for GCP production debugging
+• Reduced ticket resolution time by 35% through autonomous cross-service root cause analysis
+• Developed real-time applications with React, Node.js, WebRTC, and Three.js (metaverse platform with 3D avatars)
+• Created Chrome extension with 100+ active users using AI-powered real-time suggestions
+• Architected RESTful APIs improving data accuracy by 30% at Antino Labs
+• Deep experience with GCP (Cloud Run, GKE, Cloud Logging), MongoDB, PostgreSQL, Redis
+
+WHY [COMPANY NAME]:
+[Customize: Research company mission, products, or recent news. Example:]
+I'm particularly excited about [Company Name]'s work on [specific product/initiative]. Your focus on [company value/technology] aligns perfectly with my experience building [relevant project].
+
+WHAT I BRING:
+• Startup velocity: Thrived in fast-paced YC environment with rapid iteration
+• Full-stack expertise: Python, JavaScript/TypeScript, React, Node.js, FastAPI
+• AI/ML integration: Built production AI agents, RAG pipelines, NLP systems
+• Product mindset: Shipped multiple projects from conception to deployment
+• Cloud-native: GCP, distributed systems, microservices architecture
+
+VIEW MY WORK:
+• AI Diagnostic Agent: loom.com/share/39177663278b4fbabebf2f0f814ddac4
+• Metaverse Platform: in-sphere-j2ug.vercel.app
+• Complete Portfolio: portfolio-beryl-eight-45.vercel.app
+
+I would love to discuss how my experience building AI-powered infrastructure and scalable full-stack applications can contribute to [Company Name]'s [specific team/goal].
+
+Thank you for your consideration. I look forward to speaking with you.
+
+Best regards,
+Animesh
++91-9350409792
+d.animesh.pr@gmail.com
+
+================================================================================
+
+CUSTOMIZATION CHECKLIST:
+☐ Replace [Hiring Manager Name] (check LinkedIn or use "Hiring Team")
+☐ Replace all instances of [Company Name] (appears 5 times)
+☐ Replace [Position Title] with exact job title
+☐ Customize "WHY [COMPANY NAME]" section (research company)
+☐ Adjust technical highlights to match job description keywords
+☐ Update "WHAT I BRING" to emphasize role requirements
+☐ Replace [specific team/goal] with info from job posting
+☐ Proofread for company name consistency
+☐ Keep total length under 400 words
